@@ -1,0 +1,179 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0099cc"
+    tools:context="com.gdgsignup.FullscreenActivity">
+
+    <!-- The primary full-screen view. This can be replaced with whatever view
+         is needed to present your content, e.g. VideoView, SurfaceView,
+         TextureView, etc. -->
+
+    <!-- This FrameLayout insets its children based on system windows using
+         android:fitsSystemWindows. -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:id="@+id/fullscreen_content_controls"
+                style="?metaButtonBarStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|center_horizontal"
+                android:background="@color/black_overlay"
+                android:orientation="vertical"
+                tools:ignore="UselessParent">
+
+                <Button
+                    android:id="@+id/dummy_button"
+                    style="?metaButtonBarButtonStyle"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/dummy_button" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/enterprise_1440x900"
+                android:scaleType="centerCrop" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RelativeLayout
+                    android:id="@+id/GDGBanner"
+                    android:layout_width="match_parent"
+                    android:layout_height="80sp"
+                    android:layout_marginBottom="5sp"
+                    android:layout_marginEnd="5sp"
+                    android:layout_marginStart="5sp"
+                    android:layout_marginTop="5sp"
+                    android:background="@color/white">
+
+                    <ImageView
+                        android:id="@id/imageView"
+                        android:layout_width="70sp"
+                        android:layout_height="70sp"
+                        android:background="@drawable/gng_program_icon" />
+
+                    <TextView
+                        android:id="@+id/textView2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:layout_toRightOf="@id/imageView"
+                        android:fontFamily="serif"
+                        android:text="GDG Wilmington"
+                        android:textSize="40sp" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/NameNEamil"
+                    android:layout_width="match_parent"
+                    android:layout_height="135sp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_below="@+id/GDGBanner">
+
+                    <TextView
+                        android:id="@+id/Name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5sp"
+                        android:layout_marginRight="5sp"
+                        android:width="60sp"
+                        android:height="40sp"
+                        android:text="Name:"
+                        android:textSize="20sp" />
+
+                    <EditText
+                        android:id="@+id/namebox"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5sp"
+                        android:layout_toRightOf="@id/Name"
+                        android:width="330sp"
+                        android:height="40sp"
+                        android:background="@color/white"
+                        android:focusable="true"
+                        android:text="" />
+
+                    <TextView
+                        android:id="@+id/NEmail"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/Name"
+                        android:layout_marginLeft="5sp"
+                        android:layout_marginRight="5sp"
+                        android:layout_marginTop="5sp"
+                        android:width="60sp"
+                        android:height="30sp"
+                        android:text="Email:"
+                        android:textSize="20sp" />
+
+                    <EditText
+                        android:id="@+id/Nemailbox"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/namebox"
+                        android:layout_marginLeft="5sp"
+                        android:layout_marginTop="5sp"
+                        android:layout_toRightOf="@id/NEmail"
+                        android:width="330sp"
+                        android:height="40sp"
+                        android:background="@color/white"
+                        android:text="" />
+
+                    <TextView
+                        android:id="@+id/subm"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_marginLeft="80sp"
+                        android:textSize="20sp"
+                        android:visibility="invisible"
+                        android:text="Submitted"
+                        android:background="@color/white"/>
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentRight="true"
+                        android:clickable="true"
+                        android:onClick="procData"
+                        android:text="Submit" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="290sp"
+                    android:layout_alignLeft="@+id/GDGBanner"
+                    android:layout_alignStart="@+id/GDGBanner"
+                    android:layout_below="@+id/NameNEamil">
+
+                    <ImageView
+                        android:layout_width="200sp"
+                        android:layout_height="100sp"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginBottom="20sp"
+                        android:layout_marginRight="10sp"
+                        android:src="@drawable/devcon10" />
+                </RelativeLayout>
+            </RelativeLayout>
+        </FrameLayout>
+    </FrameLayout>
+</FrameLayout>

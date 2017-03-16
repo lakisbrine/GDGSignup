@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\Lakis\.android\build-cache\8edda7b88aef60cc16d9906d148f21f3d6d6e0c0\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8fe8a8f77d651982ce5e18f6187dc4daf914ac57">
+        <dex dex="C:\Users\Lakis\AndroidStudioProjects\GDGSignup\app\build\intermediates\pre-dexed\debug\classes_31877521ee1baacfc2a7b383666fc2db7e463cc8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Users\Lakis\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.2.0\support-annotations-25.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4a5a82a027706397fff621b22fd6fa796e91d7c5">
+        <dex dex="C:\Users\Lakis\AndroidStudioProjects\GDGSignup\app\build\intermediates\pre-dexed\debug\support-annotations-25.2.0_dcb05bec0ecc2a9cec2e5d16ffff961f53ff6fb1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Lakis\.android\build-cache\68858b4e8983abf7e0107eb09f6162874283b200\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\Lakis\AndroidStudioProjects\GDGSignup\app\build\intermediates\pre-dexed\debug\classes_30c05370d66f7f2362d5a47cfcf8fe0988f262f5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Lakis\.android\build-cache\37e4035e8707c820eaacda303920e2acb42ed5ca\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="67eb33110dbacb46a48175b08ae0c96761d2c17d">
+        <dex dex="C:\Users\Lakis\AndroidStudioProjects\GDGSignup\app\build\intermediates\pre-dexed\debug\classes_87bb764ac3402d620952c0b8b29a9cdaeed648ca.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Lakis\.android\build-cache\77e83d68343caf6280305d9331e0ebab149f9eb7\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="cb454b52545859ed2f24a6c01366805b0fa04b22">
+        <dex dex="C:\Users\Lakis\AndroidStudioProjects\GDGSignup\app\build\intermediates\pre-dexed\debug\classes_3cd425fdbaeadec5b7c0bedb717a390bc96b2811.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Lakis\.android\build-cache\de8b4c29c5ae9acee9a2ae495c79519220038391\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e820b7be8c035dd522da4bc822e8a76c8e27921a">
+        <dex dex="C:\Users\Lakis\AndroidStudioProjects\GDGSignup\app\build\intermediates\pre-dexed\debug\classes_d1e6cdf5cb2104012439539a2e1ea85dbba45773.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Lakis\.android\build-cache\cbd7b51dfc16c74e4f3a5c86256d25ccc9e69d95\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="810f41e5b7fd99f196ebeabe865ba2c54e7e76dc">
+        <dex dex="C:\Users\Lakis\AndroidStudioProjects\GDGSignup\app\build\intermediates\pre-dexed\debug\classes_dbd49fede30499badee3c44acadf8ca5cc2ca5e1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Lakis\.android\build-cache\045d974e8437aaa1a88b5613b824a44209e5e7f9\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="fa0446a14ed5dd3725047d6399ffea771a564b30">
+        <dex dex="C:\Users\Lakis\AndroidStudioProjects\GDGSignup\app\build\intermediates\pre-dexed\debug\classes_1fc4baa2f09f9c257bfa2f4349b5b04b7bfe4093.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Lakis\.android\build-cache\9a214802fc5a7010bb9a256795307e3fc2b8f307\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="702d339bc0a81d21354cd7e2cf2b67225fa4a16c">
+        <dex dex="C:\Users\Lakis\AndroidStudioProjects\GDGSignup\app\build\intermediates\pre-dexed\debug\classes_4dc584afa2cdbdb7f60c1c054b662fda726689e7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Lakis\.android\build-cache\625cb8470c8e113977a4db0f693ae009d7482b5d\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ee394a892dd21c03a528139c1e8d4e0e1264ac84">
+        <dex dex="C:\Users\Lakis\AndroidStudioProjects\GDGSignup\app\build\intermediates\pre-dexed\debug\classes_6339b731720b33afdb4fafae051a76313abf91af.jar" />
+    </item>
+
+</items>
